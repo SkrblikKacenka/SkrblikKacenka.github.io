@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kachna</title>
+        <style>
+            .pozadi-zelena {
+                background-color: green;
+            }
+            #red-background-id {
+                background-color: red;
+            }
+            .box {
+                border-style: solid;
+                border-color: black;
+                border-width: 5px;
+                text-align: center;
+            }
+            .yellow-box {
+                background-color: yellow;
+                padding: 20;
+            }
+            .red-box {
+                background-color: red;
+                margin: 30;
+            }
+            .green-box {
+                background-color: green;
+                padding-top: 50px;
+                padding-right: 48px;
+                padding-bottom: 30px;
+                padding-left: 69px;
+            }
+            .blue-box {
+                background-color: blue;
+                margin-top: 42px;
+                margin-right: 36px;
+                margin-bottom: 51px;
+                margin-left: 29px;
+            }
+            .orange-box {
+                background-color: orange;
+                padding: 30px 40px 25px 36px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="zpracovani.html">
+            <input type="text" required>
+            <button type="submit">odešli data</button>
+            <div class="pozadi-zelena">
+                <br><label><input type="radio" checked>česky</label></br>
+                <label><input type="radio">anglicky</label></br>
+                <label><input type="radio">německy</label></br>
+                <br><label id="red-background-id"><input type="checkbox">red</label></br>
+                <label><input type="checkbox">blue</label></br>
+                <input type="checkbox" checked>white
+            </div>
+            <div class="yellow-box box">yellow box
+                <h4 class="box red-box">red box</h4>
+                <h4 class="box green-box">green box</h4>
+                <h4 class="box blue-box">blue box</h4>
+                <h4 class="box orange-box">orange box</h4>
+            </div>
+        </form>
+    </body>    
